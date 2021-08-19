@@ -1,0 +1,9 @@
+2021/07/09 17:29:55.209 [E] [carController.go:185]  数据信息为:name:|desc:|is_active:0|
+2021/07/09 17:29:55.211 [E] [carController.go:186]  更新数据出错:sql: converting argument $2 type: unsupported type auth.CarBrand, a struct
+2021/07/09 17:37:22.671 [E] [carController.go:185]  数据信息为:name:|desc:|is_active:0|
+2021/07/09 17:37:22.672 [E] [carController.go:186]  更新数据出错:sql: converting argument $3 type: unsupported type auth.CarBrand, a struct
+2021/07/09 17:49:05.052 [E] [carController.go:185]  数据信息为:name:BMW_0001|desc:AAAA|is_active:1|
+2021/07/09 17:49:05.053 [E] [carController.go:186]  更新数据出错:sql: converting argument $2 type: unsupported type auth.CarBrand, a struct
+2021/07/17 16:39:26.650 [E] [template.go:227]  parse template err: cars/car_list.html template: cars/car_list.html:53: function "cars" not defined
+2021/07/22 14:18:15.796 [E] [router.go:910]  template: cars/carApply_list.html:62:35: executing "cars/carApply_list.html" at <.CarBrand.Name>: can't evaluate field CarBrand in type auth.Car
+2021/07/22 16:54:56.666 [E] [router.go:910]  template: cars/myApply_list.html:68:31: executing "cars/myApply_list.html" at <.Cars.CarBand.Name>: can't evaluate field Cars in type auth.CarApplication

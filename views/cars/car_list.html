@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/xadmin.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+      <script src="/static/sweetalert/ions_alert.js"></script>
+      <script src="/static/sweetalert/sweetalert.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a href="">车辆管理</a>
+        <a>
+          <cite>车辆列表</cite></a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href= "{{urlfor "CarController.List"}}" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+      <div class="layui-row">
+        <form class="layui-form layui-col-md12 x-so">
+          {{/*<input class="layui-input" placeholder="开始日" name="start" id="start">*/}}
+          {{/*<input class="layui-input" placeholder="截止日" name="end" id="end">*/}}
+          <input type="text" id="name" value="{{.kw}}"  placeholder="请输入车辆名称" autocomplete="off" class="layui-input">
+          <button id="search_btn" class="layui-btn"><i class="layui-icon">&#xe615;</i></button>
+          <button id="clear_btn" class="layui-btn"><i class="layui-icon" style="line-height:30px">ဂ</i></button>
+        </form>
+      </div>
+      <xblock>
+        <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
+        <button class="layui-btn" onclick="x_admin_show('添加车辆','{{urlfor "CarController.ToAdd"}}',800,450)"><i class="layui-icon"></i>添加</button>
+        <span class="x-right" style="line-height:40px">共有数据：{{.count}} 条</span>
+      </xblock>
+
+      <table class="layui-table">
+        <thead>
+          <tr>
+            <th>
+              <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>车辆名称</th>
+            <th>品牌名称</th>
+            <th>加入时间</th>
+            <th>状态</th>
+            <th>操作</th></tr>
+        </thead>
+        <tbody>
+          {{range .cars}}
+          <tr>
+              <td>
+                  <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='{{.Id}}'><i class="layui-icon">&#xe605;</i></div>
+              </td>
+              <td>{{.Name}}</td>
+              <td>{{.CarBand.Name}}</td>
+
+              <td>
+                {{date .CreateTime "2006-01-02 15:04:05"}}
+              </td>
+              <td class="td-status">
+                  {{if eq .IsActive 1}}
+                      <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span>
+                  {{else if eq .IsActive 0}}
+                      <span class="layui-btn layui-btn-danger layui-btn-mini">已停用</span>
+                  {{end}}
+
+              </td>
+              <td class="td-manage">
+                  {{if eq .IsActive  1}}
+                      <input type="hidden" value="{{.IsActive}}">
+                      <input type="hidden" value="{{ .Id}}">
+                      <a class="  status_btn" title="停用">
+                          {{/*                        <i class="layui-icon">&#xe601;</i>停用*/}}
+                          <i class="layui-icon">&#xe601;</i>
+
+                      </a>
+                  {{else if eq .IsActive  0}}
+
+                      <input type="hidden" value="{{.IsActive}}">
+                      <input type="hidden" value="{{ .Id}}">
+                      <a class=" status_btn" title="启用">
+                          {{/*                        <i class="layui-icon">&#xe62f;</i>启用*/}}
+                          <i class="layui-icon">&#xe62f;</i>
+                      </a>
+                  {{end}}
+
+                  <a style="cursor: pointer" title="编辑" onclick="x_admin_show('编辑用户','{{urlfor "CarController.ToUpdate"}}?id={{.Id}}',600,400)">
+                      <i class="layui-icon">&#xe642;</i>
+                  </a>
+                  <a title="删除" onclick="member_del(this,'{{.Id}}')" href="javascript:;">
+                      <i class="layui-icon">&#xe640;</i>
+                  </a>
+              </td>
+          </tr>
+          {{end}}
+
+
+        </tbody>
+      </table>
+
+        <div class="page">
+            <div>
+                {{if .count}}
+                    <div class="layui-box layui-laypage layui-laypage-default"
+                         id="layui-laypage-1">
+                        <span class="layui-laypage-count">共 {{.count}} 条</span>
+                        <a
+                                href="{{urlfor "CarController.List"}}/?page=1"
+                                value="首页" onclick="pagechange(this)">首页</a>
+                        {{if .has_previous}}
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page={{.previous_page_number}}"
+                                    value="上一页" onclick="pagechange(this)">上一页</a>
+                        {{else}}
+                            <a href="javascript:void(0);" style="cursor: not-allowed">上一页</a>
+                        {{end}}
+
+                        {{if .left_has_more }}
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page=1"
+                                    value="1" onclick="pagechange(this)">1</a>
+                            <a href="">...</a>
+                        {{end}}
+
+                        {{range .left_pages}}
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page={{.}}"
+                                    value="{{.}}" onclick="pagechange(this)">{{.}}</a>
+                        {{end}}
+
+                        <a class="currentpage" style="color: red"
+                           href="{{urlfor "CarController.List"}}/?page={{.page}}"
+                           value="{{.page}}" onclick="pagechange(this)">{{.page}}</a>
+
+
+                        {{range .right_pages }}
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page={{.}}"
+                                    value="{{.}}" onclick="pagechange(this)">{{.}}</a>
+                        {{end}}
+
+                        {{if.right_has_more }}
+                            <a href="">...</a>
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page={{.num_pages}}"
+                                    value="{{.num_pages}}"
+                            >{{.num_pages}}</a>
+                        {{end}}
+
+                        {{if .has_next}}
+                            <a
+                                    href="{{urlfor "CarController.List"}}/?page={{.next_page_number}}"
+                                    value="{{.next_page_number}}"
+                                    onclick="pagechange(this)">下一页</a>
+                        {{else}}
+                            <a href="javascript:void(0);" style="cursor: not-allowed">下一页</a>
+                        {{end}}
+                        <a
+                                href="{{urlfor "CarController.List"}}/?page={{.num_pages}}"
+                                value="尾页" onclick="pagechange(this)">尾页</a>
+                    </div>
+
+                {{end}}
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+       /*用户-启用/停用*/
+       $(document).ready(function () {
+           // 启用和停用
+           var status_btns=document.getElementsByClassName("status_btn");
+           for(var i=0;i<status_btns.length;i++){
+               status_btns[i].onclick=function () {
+                   var input_id_tag=this.previousElementSibling || this.previousSibling;
+                   var input_status__tag=input_id_tag.previousElementSibling || input_id_tag.previousSibling;
+                   var id=input_id_tag.value;
+                   var status=input_status__tag.value;
+
+                   if(status==1){
+                       layer.confirm('确认要停用吗？',function(index){
+                           layer.close(index);
+                           $.ajax({
+                               type:'POST',
+                               url:'{{urlfor "CarController.IsActive"}}',
+                               data:{
+                                   'id':id,
+                                   'status':status
+                               },
+                               dataType:'JSON',
+                               success:function (data) {
+                                   var messg=data.msg;
+                                   // store_alert.alertSuccessToast(messg);
+                                   ions_alert.alertSuccessToast(messg)
+                                   setTimeout(reload_list,2000);
+                               },
+                               error:function (error) {
+                                   // store_alert.alertErrorToast(error.msg);
+                                   ions_alert.alertSuccessToast(messg)
+                                   setTimeout(reload_list,2000);
+                               }
+                           })
+                       });
+                   }
+                   if(status==0){
+                       layer.confirm('确认要启用吗？',function(index){
+                           layer.close(index);
+                           $.ajax({
+                               type:'POST',
+                               url:'{{urlfor "CarController.IsActive"}}',
+                               data:{
+                                   'id':id,
+                                   'status':status
+                               },
+                               dataType:'JSON',
+                               success:function (data) {
+                                   var messg=data.msg;
+                                   // store_alert.alertSuccessToast(messg);
+                                   ions_alert.alertSuccessToast(messg)
+                                   setTimeout(reload_list,2000);
+                               },
+                               error:function (error) {
+                                   // store_alert.alertErrorToast(error.msg);
+                                   ions_alert.alertSuccessToast(messg)
+                                   setTimeout(reload_list,2000);
+                               }
+                           })
+                       });
+                   }
+               }
+           }
+
+           //重新加载列表
+           function reload_list() {
+               // 获得frame索引
+               var index = parent.layer.getFrameIndex(window.name);
+               // 刷新父页面，一定要在close之前
+               parent.location.reload();   // 和原来课程里面的区别就在这句，一定要在close之前
+
+               //关闭当前frame
+               parent.layer.close(index);
+               window.location.href = "{{urlfor "CarController.List"}}"
+           }
+       });
+
+       /* 搜索清空*/
+       var search_btn = document.getElementById("search_btn");
+       search_btn.onclick = function (ev) {
+           ev.preventDefault();
+           var kw = document.getElementById("name").value;
+           window.location.href = "{{urlfor "CarController.List"}}?kw=" + kw
+       };
+
+
+       var clear_btn = document.getElementById("clear_btn");
+
+       clear_btn.onclick = function (ev) {
+           ev.preventDefault();
+           window.location.href = "{{urlfor "CarController.List"}}"
+       }
+
+       /*用户-删除*/
+       function member_del(obj, id) {
+
+           ions_alert.alertConfirm({
+               'title':"删除",
+               'msg':"确认要删除此车辆吗?",
+               confirmCallback(){
+                   $.ajax({
+                       type:'POST',
+                       url:'{{urlfor "CarController.Delete"}}',
+                       data:{
+                           'id':id,
+
+                       },
+                       dataType:'JSON',
+                       success:function (data) {
+                           var code = data["code"];
+                           if(code == 200){
+                               //alert(data["msg"])
+                               // ions_alert.alertSuccessToast(data["msg"]);
+                               parent.layer.alert(data["msg"])
+                               window.setTimeout(window.location.href = "{{urlfor "CarController.List"}}",3000);  // 2s
+
+                           }else {
+                               //ions_alert.alertErrorToast(data["msg"])
+                               parent.layer.alert(data["msg"])
+                           }
+                       },
+                       fail:function (data) {
+                           alert(data)
+                       }
+                   })
+               },
+           })
+       }
+
+       function delAll (argument) {
+
+           // "3,7,8"   str[0]
+           // var ids = [];
+           var ids = "";
+           var i = 0;
+           $(".layui-form-checked").each(function () {
+               var id = $(this).attr("data-id");
+               // ids.push(id)
+               if(i == 0){
+                   ids = id
+               }else {
+                   ids = ids + "," + id
+               }
+
+               i ++
+
+
+           });
+
+           layer.confirm('确认要批量删除吗？',function(index){
+               layer.close(index);
+               $.ajax({
+                   url:"{{urlfor "CarController.MuliDelete"}}",
+                   type:"POST",
+                   data:{
+                       "ids":ids
+                   },
+                   success:function (data) {
+                       if (data.code==200){
+                           ions_alert.alertSuccessToast(data["msg"]);
+                           setTimeout(reload_list,1000)
+                       }else{
+                           ions_alert.alertErrorToast(data["msg"]);
+                           setTimeout(reload_list,1000)
+                       }
+
+                   },
+                   fail:function (data) {
+                       ions_alert.alertErrorToast("批量删除失败");
+                       setTimeout(reload_list,1000)
+                   }
+
+               })
+           });
+       }
+
+    </script>
+
+  </body>
+
+</html>

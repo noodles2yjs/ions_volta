@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/xadmin.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+      <script src="/static/sweetalert/ions_alert.js"></script>
+      <script src="/static/sweetalert/sweetalert.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a href="">车辆管理</a>
+        <a>
+          <cite>我的申请</cite></a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href= "{{urlfor "CarApplyController.MyApply"}}" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+      <div class="layui-row">
+        <form class="layui-form layui-col-md12 x-so">
+
+          <input type="text" id="name" value="{{.kw}}"  placeholder="请输入车辆名称" autocomplete="off" class="layui-input">
+          <button id="search_btn" class="layui-btn"><i class="layui-icon">&#xe615;</i></button>
+          <button id="clear_btn" class="layui-btn"><i class="layui-icon" style="line-height:30px">ဂ</i></button>
+        </form>
+      </div>
+   {{/*   <xblock>
+        <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
+        <button class="layui-btn" onclick="x_admin_show('添加车辆','{{urlfor "CarApplyController.ToAdd"}}',800,450)"><i class="layui-icon"></i>添加</button>
+        <span class="x-right" style="line-height:40px">共有数据：{{.count}} 条</span>
+      </xblock>*/}}
+
+        <table class="layui-table">
+            <thead>
+            <tr>
+                <th>车辆名称</th>
+                <th>车辆品牌名称</th>
+                <th>加入时间</th>
+                <th>归还时间</th>
+                <th>审核状态</th>
+                <th>归还状态</th>
+                <th>审核意见</th>
+                <th>操作</th>
+            </thead>
+            <tbody>
+            {{range .cars_apply}}
+                <tr>
+                    <td>{{.Car.Name}}</td>
+                    <td>{{.Car.CarBand.Name}}</td>
+
+                    <td>
+                        {{date .CreateTime "2006-01-02 15:04:05"}}
+                    </td>
+                    <td>
+                        {{date .ReturnDate "2006-01-02"}}
+                    </td>
+                    <td class="td-status">
+                        <input type="hidden" id="is_active_val" value="{{.IsActive}}">
+                        {{if eq .AuditStatus 1}}
+                            <span class="layui-btn layui-btn-normal layui-btn-mini">同意</span>
+                        {{else if eq .AuditStatus 2}}
+                            <span class="layui-btn layui-btn-danger layui-btn-mini">未同意</span>
+                        {{else if eq .AuditStatus 3}}
+                            <span class="layui-btn layui-btn-danger layui-btn-mini">未审批</span>
+
+                        {{end}}
+
+                    </td>
+
+                    <td class="td-status">
+                        <input type="hidden" id="is_active_val" value="{{.IsActive}}">
+                        {{if eq .ReturnStatus 0}}
+                            <span class="layui-btn layui-btn-danger layui-btn-mini">未归还</span>
+                        {{else if eq .ReturnStatus 1}}
+                            <span class="layui-btn layui-btn-normal layui-btn-mini">已归还</span>
+
+                        {{end}}
+
+                    </td>
+
+                    <td class="td-manage">
+                        {{.AuditOption}}
+
+                    </td>
+
+                    <td>
+                        {{if eq .ReturnStatus 0}}
+
+                            {{if eq .AuditStatus 1}}
+                                <a href="{{urlfor "CarApplyController.DoReturn"}}?id={{.Id}}">
+                                    <button class="layui-btn"><i class="layui-icon">&#xe63c;</i>归还</button>
+                                </a>
+                            {{else if eq .AuditStatus 2 3}}
+                                <button class="layui-btn" style="cursor: not-allowed;color: #353c49;" disabled><i class="layui-icon">&#xe63c;</i>归还</button>
+
+                            {{end}}
+                        {{else}}
+                            <button class="layui-btn" style="cursor: not-allowed;color: #353c49;" disabled><i class="layui-icon">&#xe63c;</i>归还</button>
+                        {{end}}
+
+
+                    </td>
+                </tr>
+            {{end}}
+
+
+            </tbody>
+        </table>
+
+        <div class="page">
+            <div>
+                {{if .count}}
+                    <div class="layui-box layui-laypage layui-laypage-default"
+                         id="layui-laypage-1">
+                        <span class="layui-laypage-count">共 {{.count}} 条</span>
+                        <a
+                                href="{{urlfor "CarApplyController.MyApply"}}/?page=1"
+                                value="首页" onclick="pagechange(this)">首页</a>
+                        {{if .has_previous}}
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page={{.previous_page_number}}"
+                                    value="上一页" onclick="pagechange(this)">上一页</a>
+                        {{else}}
+                            <a href="javascript:void(0);" style="cursor: not-allowed">上一页</a>
+                        {{end}}
+
+                        {{if .left_has_more }}
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page=1"
+                                    value="1" onclick="pagechange(this)">1</a>
+                            <a href="">...</a>
+                        {{end}}
+
+                        {{range .left_pages}}
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page={{.}}"
+                                    value="{{.}}" onclick="pagechange(this)">{{.}}</a>
+                        {{end}}
+
+                        <a class="currentpage" style="color: #ff0000"
+                           href="{{urlfor "CarApplyController.MyApply"}}/?page={{.page}}"
+                           value="{{.page}}" onclick="pagechange(this)">{{.page}}</a>
+
+
+                        {{range .right_pages }}
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page={{.}}"
+                                    value="{{.}}" onclick="pagechange(this)">{{.}}</a>
+                        {{end}}
+
+                        {{if.right_has_more }}
+                            <a href="">...</a>
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page={{.num_pages}}"
+                                    value="{{.num_pages}}"
+                            >{{.num_pages}}</a>
+                        {{end}}
+
+                        {{if .has_next}}
+                            <a
+                                    href="{{urlfor "CarApplyController.MyApply"}}/?page={{.next_page_number}}"
+                                    value="{{.next_page_number}}"
+                                    onclick="pagechange(this)">下一页</a>
+                        {{else}}
+                            <a href="javascript:void(0);" style="cursor: not-allowed">下一页</a>
+                        {{end}}
+                        <a
+                                href="{{urlfor "CarApplyController.MyApply"}}/?page={{.num_pages}}"
+                                value="尾页" onclick="pagechange(this)">尾页</a>
+                    </div>
+
+                {{end}}
+            </div>
+        </div>
+
+    </div>
+    <script>
+        /* 搜索清空*/
+        var search_btn = document.getElementById("search_btn");
+        search_btn.onclick = function (ev) {
+            ev.preventDefault();
+            var kw = document.getElementById("name").value;
+            window.location.href = "{{urlfor "CarApplyController.MyApply"}}?kw=" + kw
+        };
+
+
+        var clear_btn = document.getElementById("clear_btn");
+
+        clear_btn.onclick = function (ev) {
+            ev.preventDefault();
+            window.location.href = "{{urlfor "CarApplyController.MyApply"}}"
+        }
+    </script>
+
+  </body>
+
+</html>

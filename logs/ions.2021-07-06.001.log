@@ -1,0 +1,798 @@
+2021/07/03 13:42:03.107 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:04.451 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:05.731 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:06.992 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:08.320 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:09.635 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:10.994 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:12.315 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:13.597 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:14.876 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:16.151 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:17.435 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:18.691 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:20.009 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:21.316 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:22.596 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:23.852 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:25.119 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:26.384 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:27.680 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:28.921 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:44.494 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|      1.993ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 13:42:44.565 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    66.8517ms|   match|[44m GET     [0m /     r:/
+2021/07/03 13:42:44.628 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 13:42:44.630 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 13:42:44.634 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 13:42:44.643 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      994.9µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 13:42:44.643 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      994.9µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 13:42:44.648 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      992.2µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 13:42:44.650 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.986ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 13:42:44.652 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.981ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 13:42:44.974 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 13:42:44.974 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 13:42:44.975 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 13:42:45.002 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 13:42:45.024 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 13:42:45.031 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 13:42:45.037 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 13:42:45.053 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 13:43:39.879 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 13:43:39.879 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.2619ms|   match|[46m POST    [0m /     r:/
+2021/07/03 13:43:39.900 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 13:43:39.900 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 13:43:39.901 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 13:43:39.902 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 13:43:39.903 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     11.967ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 13:43:39.975 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 13:43:49.551 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0191ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 13:43:50.570 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9932ms|   match|[44m GET     [0m /main/carBrand/toAdd   r:/main/carBrand/toAdd
+2021/07/03 13:44:07.655 [I] [car_brand.go:99]  插入的数据信息:name:ceshi3|desc:ceshi33|is_active:%!s(int=1)
+2021/07/03 13:44:07.656 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9927ms|   match|[46m POST    [0m /main/carBrand/doAdd   r:/main/carBrand/doAdd
+2021/07/03 13:44:09.676 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9956ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 13:44:12.088 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0243ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 13:44:17.172 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.8µs|   match|[44m GET     [0m /main/carBrand/toAdd   r:/main/carBrand/toAdd
+2021/07/03 13:44:30.164 [I] [car_brand.go:99]  插入的数据信息:name:cesh2|desc:cesh2|is_active:%!s(int=1)
+2021/07/03 13:44:30.165 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|       3.99ms|   match|[46m POST    [0m /main/carBrand/doAdd   r:/main/carBrand/doAdd
+2021/07/03 13:44:32.181 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9916ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 13:44:35.504 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /main/carBrand/toAdd   r:/main/carBrand/toAdd
+2021/07/03 13:44:50.498 [I] [car_brand.go:99]  插入的数据信息:name:cesi4|desc:ces4|is_active:%!s(int=1)
+2021/07/03 13:44:50.499 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9917ms|   match|[46m POST    [0m /main/carBrand/doAdd   r:/main/carBrand/doAdd
+2021/07/03 13:44:52.514 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9924ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 13:44:56.575 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9876ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 13:45:01.522 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9884ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 13:45:03.150 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0222ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 13:45:51.037 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:46:35.013 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:49:54.510 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:49:55.745 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:52:21.809 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 15:58:42.767 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 15:58:52.601 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9849ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 15:58:52.663 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     58.848ms|   match|[44m GET     [0m /     r:/
+2021/07/03 15:58:52.732 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 15:58:52.732 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 15:58:52.733 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0042ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 15:58:52.742 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 15:58:52.745 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 15:58:52.746 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9878ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 15:58:52.746 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9898ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 15:58:52.751 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9836ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 15:58:52.766 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 15:58:52.766 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 15:58:52.767 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 15:58:52.818 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 15:59:33.864 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    58.8379ms|   match|[44m GET     [0m /     r:/
+2021/07/03 15:59:33.908 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 15:59:33.910 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 15:59:33.910 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 15:59:33.915 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 15:59:33.916 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 15:59:33.916 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 15:59:33.916 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 15:59:33.929 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0055ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 15:59:34.308 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 15:59:34.309 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 15:59:34.310 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0072ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 15:59:34.334 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 15:59:34.355 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 15:59:34.362 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 15:59:34.368 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 15:59:34.380 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/zlkt.ico
+2021/07/03 15:59:34.385 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      996.8µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 15:59:41.541 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 15:59:41.542 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9942ms|   match|[46m POST    [0m /     r:/
+2021/07/03 15:59:41.561 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 15:59:41.562 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 15:59:41.562 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 15:59:41.562 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 15:59:41.563 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9679ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 15:59:41.613 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2021/07/03 15:59:41.614 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9759ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 15:59:43.901 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0226ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 15:59:49.587 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9981ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 15:59:51.615 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9581ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:00:02.897 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0253ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:00:06.402 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9921ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:00:52.871 [I] [car_brand.go:203]  批量删除成功,用户ids:"10,11"
+2021/07/03 16:00:52.872 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9947ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:00:53.891 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9919ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:00:58.219 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.992ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:00:59.660 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:01:59.726 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0229ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:02:03.252 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9935ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:02:06.763 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9964ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:07:44.447 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:07:53.824 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9921ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:07:53.886 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8472ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:07:53.923 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:07:53.925 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:07:53.926 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:07:53.933 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:07:53.936 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.4µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:07:53.938 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      983.1µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:07:53.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:07:53.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:07:54.226 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:07:54.226 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:07:54.227 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:07:54.252 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:07:54.274 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:07:54.279 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:07:54.294 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      997.2µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:08:02.246 [I] [login_controller.go:54]  登录的post请求，用户名密码错误，登录信息：username:admin;pwd:6537e99af2c2223642df9f70a0b5afca
+2021/07/03 16:08:02.246 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9993ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:08:07.926 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    60.8369ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2021/07/03 16:08:10.937 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:08:10.938 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.993ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:08:10.957 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:08:10.958 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:08:10.958 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:08:10.958 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:08:10.959 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9711ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:08:11.020 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:08:17.532 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9843ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:08:22.431 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0229ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:08:34.073 [I] [car_brand.go:203]  批量删除成功,用户ids:"8,10,11"
+2021/07/03 16:08:34.074 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.763ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:08:35.090 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9877ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:08:58.263 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0267ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:08:59.887 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9976ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:13:03.820 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:13:25.817 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:13:36.193 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9952ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:13:36.255 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8458ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:13:36.299 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:13:36.301 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:13:36.302 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:13:36.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:13:36.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:13:36.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:13:36.318 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:13:36.318 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:13:36.808 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:13:36.808 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.3µs|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:13:36.808 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:13:36.830 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:13:36.852 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:13:36.861 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:13:36.865 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:13:36.879 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:13:46.960 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:13:46.961 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.996ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:13:46.980 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:13:46.981 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:13:46.981 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:13:46.982 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:13:46.982 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.9741ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:13:47.044 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9941ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:13:49.326 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0193ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:13:55.354 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:14:33.055 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0235ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:14:34.448 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9913ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:14:49.015 [I] [car_brand.go:209]  批量删除成功,用户ids:"11,12"
+2021/07/03 16:14:49.015 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9911ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:14:50.032 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0249ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:14:54.660 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0257ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:17:15.851 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:17:29.216 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9942ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:17:29.280 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    59.8704ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:17:29.319 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:17:29.320 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:17:29.321 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:17:29.334 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:17:29.334 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:17:29.336 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:17:29.336 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:17:29.337 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9955ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:17:29.801 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:17:29.801 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:17:29.802 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:17:29.823 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:17:29.846 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:17:29.850 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:17:29.855 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:17:29.869 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:17:45.883 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:17:45.883 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[46m POST    [0m /     r:/
+2021/07/03 16:17:45.903 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:17:45.903 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:17:45.904 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:17:45.904 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:17:45.904 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.9766ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:17:45.968 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9964ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:20:49.371 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:20:58.080 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9948ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:20:58.153 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    68.8152ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:20:58.197 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:20:58.199 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:20:58.202 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:20:58.210 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:20:58.211 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:20:58.211 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:20:58.212 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:20:58.212 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:20:58.229 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:20:58.229 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:20:58.230 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:20:58.310 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:22:14.513 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    58.8446ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:22:14.543 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:22:14.544 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:22:14.548 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9847ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:22:14.555 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:22:14.557 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:22:14.557 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:22:14.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.6µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:22:14.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:22:14.999 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:22:14.999 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:22:14.999 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:22:15.011 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:22:15.034 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:22:15.039 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:22:15.044 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:22:15.055 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      999.6µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2021/07/03 16:22:15.059 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:22:23.532 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 16:22:23.532 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[46m POST    [0m /     r:/
+2021/07/03 16:22:24.938 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    55.8557ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2021/07/03 16:22:31.909 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:22:31.909 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.6µs|   match|[46m POST    [0m /     r:/
+2021/07/03 16:22:31.910 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 16:22:31.911 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9911ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:22:31.939 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:22:31.940 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:22:31.940 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:22:31.940 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:22:31.941 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.9645ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:22:32.014 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9876ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:22:39.765 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:22:45.022 [I] [user_controller.go:281]  批量删除成功，用户ids:%!d(string=143,144)
+2021/07/03 16:22:45.022 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9829ms|   match|[46m POST    [0m /main/user/multi_delete   r:/main/user/multi_delete
+2021/07/03 16:22:50.526 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0288ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:23:42.742 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      8.019ms|   match|[44m GET     [0m /main/user/salary_slip   r:/main/user/salary_slip
+2021/07/03 16:23:56.499 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:23:56.499 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:23:56.500 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:23:56.500 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:23:56.500 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.9805ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:23:56.536 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:23:56.536 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:23:56.543 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:23:56.549 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:23:56.551 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0086ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:23:57.015 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:23:57.016 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:23:57.017 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2021/07/03 16:23:57.038 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:23:57.068 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:23:57.068 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:23:57.082 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:23:57.094 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:23:57.099 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:23:57.101 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:23:57.111 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2021/07/03 16:23:57.482 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2021/07/03 16:23:57.486 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:23:59.848 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0175ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:26:02.507 [I] [user_controller.go:35]  用户id:147,停用成功
+2021/07/03 16:26:02.508 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9895ms|   match|[46m POST    [0m /main/user/is_active   r:/main/user/is_active
+2021/07/03 16:26:26.512 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9954ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:26:27.722 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9974ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:26:59.308 [I] [user_controller.go:42]  用户id:147,启用成功
+2021/07/03 16:26:59.308 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9921ms|   match|[46m POST    [0m /main/user/is_active   r:/main/user/is_active
+2021/07/03 16:27:03.004 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9919ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:28:42.601 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9919ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 16:29:22.204 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:33:54.287 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:37:02.672 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     2.9868ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:37:02.732 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8459ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:37:02.784 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:37:02.784 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:37:02.790 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0056ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:37:02.794 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.994ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:37:02.799 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:37:02.800 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:37:02.801 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0072ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:37:02.802 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:37:03.271 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:37:03.271 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:37:03.271 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:37:03.293 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:37:03.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:37:03.320 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:37:03.325 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:37:03.339 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:37:11.656 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:37:11.657 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9927ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:37:11.676 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:37:11.676 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:37:11.677 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:37:11.677 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:37:11.678 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9696ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:37:11.754 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0164ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:37:16.932 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.985ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:37:19.860 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:37:26.150 [I] [car_brand.go:206]  批量删除成功,车辆品牌ids:"11,12"
+2021/07/03 16:37:26.151 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0011ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:37:27.168 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9907ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:37:30.865 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0228ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:37:33.214 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0244ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:42:09.677 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:42:16.743 [C] [config.go:187]  the request url is  /main/index
+2021/07/03 16:42:16.743 [C] [config.go:188]  Handler crashed with error interface conversion: interface {} is nil, not int
+2021/07/03 16:42:16.744 [C] [config.go:194]  D:/softInstall/go/install/src/runtime/panic.go:679
+2021/07/03 16:42:16.744 [C] [config.go:194]  D:/softInstall/go/install/src/runtime/iface.go:255
+2021/07/03 16:42:16.745 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/controllers/home_controller.go:19
+2021/07/03 16:42:16.746 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/vendor/github.com/astaxie/beego/router.go:877
+2021/07/03 16:42:16.746 [C] [config.go:194]  D:/softInstall/go/install/src/net/http/server.go:2802
+2021/07/03 16:42:16.747 [C] [config.go:194]  D:/softInstall/go/install/src/net/http/server.go:1890
+2021/07/03 16:42:16.747 [C] [config.go:194]  D:/softInstall/go/install/src/runtime/asm_amd64.s:1357
+2021/07/03 16:42:16.748 [log.go:179]  [HTTP] http: superfluous response.WriteHeader call from IOS_Volta/vendor/github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/03 16:42:16.843 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:43:02.506 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:43:12.127 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.0018ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:43:12.191 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    58.8418ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:43:12.229 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:43:12.229 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:43:12.231 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:43:12.237 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:43:12.239 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9963ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:43:12.241 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:43:12.242 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:43:12.250 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9899ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:43:12.509 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:43:12.509 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:43:12.510 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:43:12.535 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:43:12.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:43:12.564 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:43:12.570 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:43:12.582 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:43:29.365 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:43:29.365 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.3µs|   match|[46m POST    [0m /     r:/
+2021/07/03 16:43:29.390 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:43:29.390 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:43:29.390 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:43:29.391 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:43:29.392 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    13.9618ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:43:29.453 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9915ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:43:34.892 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.0162ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:43:41.139 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0244ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 16:43:47.208 [I] [car_brand.go:212]  批量删除成功,车辆品牌ids:"11,12"
+2021/07/03 16:43:47.209 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:43:48.226 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9895ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:53:30.833 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:53:35.029 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:53:35.030 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:53:35.031 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:53:35.032 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   4.2041029s|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:53:35.105 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:53:35.105 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:53:35.116 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:53:35.117 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:53:35.119 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:53:35.301 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:53:35.304 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2021/07/03 16:53:35.304 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9912ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:53:35.343 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0127ms|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:53:35.364 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:53:35.365 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:53:35.368 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:53:35.384 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:53:35.385 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:53:35.395 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:53:35.405 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2021/07/03 16:53:35.747 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/zlkt.ico
+2021/07/03 16:53:35.752 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:53:44.115 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:53:53.966 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     2.9826ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:53:54.030 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    60.8381ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:53:54.068 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:53:54.069 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:53:54.079 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:53:54.079 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:53:54.080 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:53:54.088 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:53:54.088 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:53:54.088 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:53:54.254 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:53:54.254 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:53:54.255 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:53:54.278 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:53:54.302 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:53:54.309 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      979.8µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:53:54.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:53:54.331 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      999.1µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:54:14.938 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:54:14.939 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.999ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:54:14.960 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:54:14.960 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:54:14.961 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:54:14.961 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:54:14.962 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9703ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:54:15.025 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:54:17.624 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9846ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:54:29.867 [C] [config.go:187]  the request url is  /main/carBrand/muli_delete
+2021/07/03 16:54:29.867 [C] [config.go:188]  Handler crashed with error wrong field/column name `IsDelets`
+2021/07/03 16:54:29.868 [C] [config.go:194]  D:/softInstall/go/install/src/runtime/panic.go:679
+2021/07/03 16:54:29.868 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/vendor/github.com/astaxie/beego/orm/db.go:730
+2021/07/03 16:54:29.868 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/vendor/github.com/astaxie/beego/orm/orm_queryset.go:199
+2021/07/03 16:54:29.869 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/controllers/cars/car_brand.go:186
+2021/07/03 16:54:29.870 [C] [config.go:194]  D:/softInstall/go/install/src/reflect/value.go:460
+2021/07/03 16:54:29.870 [C] [config.go:194]  D:/softInstall/go/install/src/reflect/value.go:321
+2021/07/03 16:54:29.871 [C] [config.go:194]  E:/Data/workspace/go/src/IOS_Volta/vendor/github.com/astaxie/beego/router.go:897
+2021/07/03 16:54:29.871 [C] [config.go:194]  D:/softInstall/go/install/src/net/http/server.go:2802
+2021/07/03 16:54:29.872 [C] [config.go:194]  D:/softInstall/go/install/src/net/http/server.go:1890
+2021/07/03 16:54:29.872 [C] [config.go:194]  D:/softInstall/go/install/src/runtime/asm_amd64.s:1357
+2021/07/03 16:54:29.873 [log.go:179]  [HTTP] http: superfluous response.WriteHeader call from IOS_Volta/vendor/github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/03 16:54:30.883 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9968ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:54:33.322 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9878ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:54:58.140 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:55:04.206 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9944ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:55:04.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    56.8467ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:55:04.307 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.6µs|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:55:04.307 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:55:04.309 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:55:04.319 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      995.8µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:55:04.320 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9951ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:55:04.321 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9905ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:55:04.324 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9955ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:55:04.327 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:55:04.471 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:55:04.471 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:55:04.472 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.7µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:55:04.496 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:55:04.518 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:55:04.527 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:55:04.530 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:55:04.545 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:55:18.614 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:55:18.614 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9939ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:55:18.635 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:55:18.637 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:55:18.638 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:55:18.639 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:55:18.640 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.9656ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:55:18.708 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.994ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:55:25.554 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.0158ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:55:29.176 [I] [car_brand.go:197]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 16:55:29.177 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9945ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:55:30.192 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9892ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:59:17.923 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:59:24.130 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.0028ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 16:59:24.195 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     60.871ms|   match|[44m GET     [0m /     r:/
+2021/07/03 16:59:24.232 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 16:59:24.235 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:59:24.235 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0023ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 16:59:24.243 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 16:59:24.259 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      990.5µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 16:59:24.260 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 16:59:24.261 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 16:59:24.263 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9914ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 16:59:25.120 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 16:59:25.120 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 16:59:25.120 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 16:59:25.145 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 16:59:25.169 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 16:59:25.178 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      994.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 16:59:25.183 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 16:59:25.205 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      997.3µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 16:59:35.130 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:59:35.130 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9897ms|   match|[46m POST    [0m /     r:/
+2021/07/03 16:59:35.151 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:59:35.152 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:59:35.152 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:59:35.153 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 16:59:35.154 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9699ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 16:59:35.216 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.6µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 16:59:37.805 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0249ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 16:59:46.520 [I] [car_brand.go:198]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 16:59:46.520 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.3µs|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 16:59:47.538 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9916ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:02:07.003 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:02:24.339 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     2.0288ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 17:02:24.401 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    58.8747ms|   match|[44m GET     [0m /     r:/
+2021/07/03 17:02:24.438 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.9µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:02:24.439 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 17:02:24.443 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 17:02:24.453 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 17:02:24.457 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      999.4µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 17:02:24.461 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 17:02:24.461 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 17:02:24.461 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 17:02:24.807 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:02:24.807 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 17:02:24.808 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 17:02:24.829 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 17:02:24.850 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 17:02:24.854 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 17:02:24.857 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 17:02:24.872 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 17:02:33.566 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 17:02:33.567 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9934ms|   match|[46m POST    [0m /     r:/
+2021/07/03 17:02:35.005 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8446ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2021/07/03 17:02:41.587 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:02:41.588 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.996ms|   match|[46m POST    [0m /     r:/
+2021/07/03 17:02:41.607 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:02:41.607 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:02:41.608 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:02:41.608 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:02:41.609 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.9971ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 17:02:41.674 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 17:02:45.993 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0182ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:02:50.373 [I] [car_brand.go:198]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 17:02:50.373 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 17:02:51.388 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:05:01.965 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:05:09.382 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     3.0359ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 17:05:17.309 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /main/index
+2021/07/03 17:05:20.993 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8472ms|   match|[44m GET     [0m /     r:/
+2021/07/03 17:05:21.031 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 17:05:21.032 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0026ms|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:05:21.032 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0026ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 17:05:21.039 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 17:05:21.048 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 17:05:21.049 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 17:05:21.053 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 17:05:21.053 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 17:05:21.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:05:21.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 17:05:21.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 17:05:21.293 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 17:05:21.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 17:05:21.320 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 17:05:21.337 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 17:05:27.106 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:05:30.159 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    59.8281ms|   match|[44m GET     [0m /     r:/
+2021/07/03 17:05:30.186 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 17:05:30.188 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:05:30.188 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 17:05:30.200 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 17:05:30.200 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 17:05:30.201 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 17:05:30.202 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 17:05:30.202 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 17:05:30.413 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:05:30.413 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 17:05:30.414 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 17:05:30.434 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 17:05:30.455 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 17:05:30.462 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 17:05:30.467 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 17:05:30.479 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2021/07/03 17:05:30.483 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 17:05:40.542 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:05:40.542 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9876ms|   match|[46m POST    [0m /     r:/
+2021/07/03 17:05:40.564 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:05:40.564 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:05:40.565 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:05:40.565 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:05:40.566 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    11.9662ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 17:05:40.635 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 17:05:40.636 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2021/07/03 17:05:51.602 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      5.019ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:05:55.966 [I] [car_brand.go:203]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 17:05:55.966 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9913ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 17:05:56.983 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9969ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:13:03.674 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:13:04.943 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:13:10.421 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|      997.3µs| nomatch|[44m GET     [0m /main/index
+2021/07/03 17:13:10.482 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    56.8476ms|   match|[44m GET     [0m /     r:/
+2021/07/03 17:13:10.544 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:13:10.544 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 17:13:10.545 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 17:13:10.555 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0075ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 17:13:10.555 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 17:13:10.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9951ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 17:13:10.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 17:13:10.560 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 17:13:10.920 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 17:13:10.920 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 17:13:10.920 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 17:13:10.941 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 17:13:10.962 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 17:13:10.967 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 17:13:10.972 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 17:13:10.987 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      990.8µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 17:13:20.697 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:13:20.697 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9947ms|   match|[46m POST    [0m /     r:/
+2021/07/03 17:13:20.720 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:13:20.720 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:13:20.720 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:13:20.721 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 17:13:20.721 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9699ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 17:13:20.808 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9951ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 17:13:31.172 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0237ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 17:13:37.590 [I] [car_brand.go:206]  批量删除成功,车辆品牌ids:"3,4,5"
+2021/07/03 17:13:37.591 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.9797ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 17:13:38.607 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9902ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:34:50.463 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:51.650 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:53.005 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:54.380 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:55.729 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:57.107 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:58.353 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:59.698 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:01.360 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:02.700 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:04.001 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:05.265 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:06.576 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:07.868 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:09.137 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:10.398 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:11.711 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:12.975 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:14.260 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:15.519 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:45.947 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|      2.993ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 20:35:46.010 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8464ms|   match|[44m GET     [0m /     r:/
+2021/07/03 20:35:46.051 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 20:35:46.051 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 20:35:46.055 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 20:35:46.068 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9941ms|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 20:35:46.070 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 20:35:46.073 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 20:35:46.074 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 20:35:46.075 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.6µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 20:35:46.483 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 20:35:46.483 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 20:35:46.484 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 20:35:46.508 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 20:35:46.531 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 20:35:46.537 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9962ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 20:35:46.543 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 20:35:46.559 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|        999µs| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 20:35:54.975 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 20:35:54.976 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9949ms|   match|[46m POST    [0m /     r:/
+2021/07/03 20:35:54.996 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:35:54.997 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:35:54.997 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:35:54.998 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:35:54.999 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9894ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 20:35:55.054 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      2.993ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 20:36:00.414 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.986ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 20:36:10.092 [I] [user_controller.go:281]  批量删除成功，用户ids:%!d(string=146,147)
+2021/07/03 20:36:10.093 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9844ms|   match|[46m POST    [0m /main/user/multi_delete   r:/main/user/multi_delete
+2021/07/03 20:36:14.144 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /main/user/list   r:/main/user/list
+2021/07/03 20:36:24.173 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0213ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:36:31.614 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:"5,6"
+2021/07/03 20:36:31.617 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 20:36:32.631 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:36:35.222 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:36:58.393 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0272ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 20:37:01.416 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9916ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 20:37:04.252 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 20:37:08.299 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/carBrand/list/
+2021/07/03 20:37:12.614 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9923ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:37:14.461 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0272ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 20:37:29.761 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /main/carBrand/list/
+2021/07/03 20:37:33.478 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9947ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:37:35.484 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0269ms|   match|[44m GET     [0m /main/carBrand/list/   r:/main/carBrand/list
+2021/07/03 20:42:35.843 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:42:56.611 [D] [router.go:969]  |      127.0.0.1|[47m 302 [0m|     1.9948ms| nomatch|[44m GET     [0m /main/index
+2021/07/03 20:42:56.672 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    57.8783ms|   match|[44m GET     [0m /     r:/
+2021/07/03 20:42:56.736 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2021/07/03 20:42:56.739 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 20:42:56.739 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/sweetalert/sweetalert.css
+2021/07/03 20:42:56.748 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2021/07/03 20:42:56.748 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2021/07/03 20:42:56.753 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /static/sweetalert/ions_alert.js
+2021/07/03 20:42:56.754 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/js/xadmin.js
+2021/07/03 20:42:56.757 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9916ms|   match|[44m GET     [0m /static/sweetalert/sweetalert.min.js
+2021/07/03 20:42:57.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2021/07/03 20:42:57.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/xadmin.css
+2021/07/03 20:42:57.267 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2021/07/03 20:42:57.289 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2021/07/03 20:42:57.311 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2021/07/03 20:42:57.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      997.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2021/07/03 20:42:57.322 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2021/07/03 20:42:57.337 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2021/07/03 20:44:19.793 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 20:44:19.794 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.992ms|   match|[46m POST    [0m /     r:/
+2021/07/03 20:44:19.815 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:44:19.816 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:44:19.816 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:44:19.816 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 20:44:19.817 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9697ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 20:44:19.891 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 20:44:47.372 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      4.988ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:44:56.450 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:5,6
+2021/07/03 20:44:56.451 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.9819ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 20:44:57.468 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.988ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:45:01.318 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.0261ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 20:45:13.316 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:3,7,8
+2021/07/03 20:45:13.316 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.9777ms|   match|[46m POST    [0m /main/carBrand/muli_delete   r:/main/carBrand/muli_delete
+2021/07/03 20:45:14.330 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.9938ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 21:54:31.398 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    85.8265ms|   match|[44m GET     [0m /     r:/
+2021/07/03 22:51:00.414 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:01.783 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:03.205 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:04.624 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:06.250 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:07.737 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:09.165 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:10.624 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:12.006 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:13.426 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:14.851 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:16.500 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:17.926 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:19.296 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:20.656 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:22.494 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:25.996 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:26.433 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   101.7275ms|   match|[44m GET     [0m /     r:/
+2021/07/03 22:51:27.541 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:29.287 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:30.704 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:32.045 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:37.781 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 22:51:37.782 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[46m POST    [0m /     r:/
+2021/07/03 22:51:39.845 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    53.8593ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2021/07/03 22:51:45.126 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 22:51:45.127 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9931ms|   match|[46m POST    [0m /     r:/
+2021/07/03 22:51:45.148 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 22:51:45.148 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 22:51:45.149 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 22:51:45.150 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/03 22:51:45.151 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9702ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/03 22:51:45.214 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/03 22:51:47.119 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9823ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 22:51:58.474 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9876ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/03 22:52:02.706 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.994ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list
+2021/07/05 22:45:03.346 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:04.013 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:05.330 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:06.687 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:08.003 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:09.319 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:10.645 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:12.007 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:13.372 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:14.688 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:16.004 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:17.332 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:18.626 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:19.986 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:21.275 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:22.606 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:23.896 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:25.202 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:26.518 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:27.830 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:29.086 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:34.401 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:41.051 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    80.7835ms|   match|[44m GET     [0m /     r:/
+2021/07/05 22:46:04.714 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/05 22:46:04.714 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[46m POST    [0m /     r:/
+2021/07/05 22:46:04.740 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/05 22:46:04.741 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/05 22:46:04.741 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/05 22:46:04.742 [W] [router.go:528]  urlfor endpoint must like path.controller.method
+2021/07/05 22:46:04.742 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.9647ms|   match|[44m GET     [0m /main/index   r:/main/index
+2021/07/05 22:46:04.795 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /main/welcome   r:/main/welcome
+2021/07/05 23:09:45.724 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.9839ms|   match|[44m GET     [0m /main/carBrand/list   r:/main/carBrand/list

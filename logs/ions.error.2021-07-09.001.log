@@ -1,0 +1,2 @@
+2021/07/08 22:59:39.977 [E] [router.go:910]  template: cars/car_list.html:75:23: executing "cars/car_list.html" at <.CreateTime>: wrong type for value; expected time.Time; got time.Duration
+2021/07/08 22:59:41.433 [E] [router.go:910]  template: cars/car_list.html:75:23: executing "cars/car_list.html" at <.CreateTime>: wrong type for value; expected time.Time; got time.Duration

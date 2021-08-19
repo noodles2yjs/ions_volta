@@ -1,0 +1,151 @@
+2021/07/03 13:42:03.107 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:04.451 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:05.731 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:06.992 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:08.320 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:09.635 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:10.994 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:12.315 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:13.597 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:14.876 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:16.151 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:17.435 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:18.691 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:20.009 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:21.316 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:22.596 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:23.852 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:25.119 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:26.384 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:27.680 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:42:28.921 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:43:39.879 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 13:44:07.655 [I] [car_brand.go:99]  插入的数据信息:name:ceshi3|desc:ceshi33|is_active:%!s(int=1)
+2021/07/03 13:44:30.164 [I] [car_brand.go:99]  插入的数据信息:name:cesh2|desc:cesh2|is_active:%!s(int=1)
+2021/07/03 13:44:50.498 [I] [car_brand.go:99]  插入的数据信息:name:cesi4|desc:ces4|is_active:%!s(int=1)
+2021/07/03 13:45:51.037 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:46:35.013 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:49:54.510 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:49:55.745 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 13:52:21.809 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 15:58:42.767 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 15:59:41.541 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:00:52.871 [I] [car_brand.go:203]  批量删除成功,用户ids:"10,11"
+2021/07/03 16:07:44.447 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:08:02.246 [I] [login_controller.go:54]  登录的post请求，用户名密码错误，登录信息：username:admin;pwd:6537e99af2c2223642df9f70a0b5afca
+2021/07/03 16:08:10.937 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:08:34.073 [I] [car_brand.go:203]  批量删除成功,用户ids:"8,10,11"
+2021/07/03 16:13:03.820 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:13:25.817 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:13:46.960 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:14:49.015 [I] [car_brand.go:209]  批量删除成功,用户ids:"11,12"
+2021/07/03 16:17:15.851 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:17:45.883 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:20:49.371 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:22:23.532 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 16:22:31.909 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:22:31.910 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 16:22:45.022 [I] [user_controller.go:281]  批量删除成功，用户ids:%!d(string=143,144)
+2021/07/03 16:26:02.507 [I] [user_controller.go:35]  用户id:147,停用成功
+2021/07/03 16:26:59.308 [I] [user_controller.go:42]  用户id:147,启用成功
+2021/07/03 16:29:22.204 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:33:54.287 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:37:11.656 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:37:26.150 [I] [car_brand.go:206]  批量删除成功,车辆品牌ids:"11,12"
+2021/07/03 16:42:09.677 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:43:02.506 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:43:29.365 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:43:47.208 [I] [car_brand.go:212]  批量删除成功,车辆品牌ids:"11,12"
+2021/07/03 16:53:44.115 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:54:14.938 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:54:58.140 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:55:18.614 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:55:29.176 [I] [car_brand.go:197]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 16:59:17.923 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 16:59:35.130 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 16:59:46.520 [I] [car_brand.go:198]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 17:02:07.003 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:02:33.566 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 17:02:41.587 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:02:50.373 [I] [car_brand.go:198]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 17:05:01.965 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:05:27.106 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:05:40.542 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:05:55.966 [I] [car_brand.go:203]  批量删除成功,车辆品牌ids:"4,5"
+2021/07/03 17:13:03.674 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:13:04.943 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 17:13:20.697 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 17:13:37.590 [I] [car_brand.go:206]  批量删除成功,车辆品牌ids:"3,4,5"
+2021/07/03 20:34:50.463 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:51.650 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:53.005 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:54.380 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:55.729 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:57.107 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:58.353 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:34:59.698 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:01.360 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:02.700 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:04.001 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:05.265 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:06.576 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:07.868 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:09.137 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:10.398 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:11.711 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:12.975 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:14.260 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:15.519 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:35:54.975 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 20:36:10.092 [I] [user_controller.go:281]  批量删除成功，用户ids:%!d(string=146,147)
+2021/07/03 20:36:31.614 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:"5,6"
+2021/07/03 20:42:35.843 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 20:44:19.793 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/03 20:44:56.450 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:5,6
+2021/07/03 20:45:13.316 [I] [car_brand.go:199]  批量删除成功,车辆品牌ids:3,7,8
+2021/07/03 22:51:00.414 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:01.783 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:03.205 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:04.624 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:06.250 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:07.737 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:09.165 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:10.624 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:12.006 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:13.426 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:14.851 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:16.500 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:17.926 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:19.296 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:20.656 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:22.494 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:25.996 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:27.541 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:29.287 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:30.704 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:32.045 [I] [app.go:214]  http server Running on http://:8080
+2021/07/03 22:51:37.781 [I] [login_controller.go:60]  登录的post请求，验证码错误，验证码信息:false
+2021/07/03 22:51:45.126 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
+2021/07/05 22:45:03.346 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:04.013 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:05.330 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:06.687 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:08.003 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:09.319 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:10.645 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:12.007 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:13.372 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:14.688 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:16.004 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:17.332 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:18.626 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:19.986 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:21.275 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:22.606 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:23.896 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:25.202 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:26.518 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:27.830 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:29.086 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:45:34.401 [I] [app.go:214]  http server Running on http://:8080
+2021/07/05 22:46:04.714 [I] [login_controller.go:71]  登录的post请求，登录成功，登录信息：username:admin;pwd:e10adc3949ba59abbe56e057f20f883e
